@@ -1,15 +1,20 @@
-# pedro-y-joseph121
-#Programacion 2 "A"
-#14/05/2026
+#pedro y josehp
+#pragramacion 2 "A"
+#codigo de colcular el descuanto dado
 
+# Datos del cliente
+precio_original = float(input("Ingresa el precio del producto: "))
+color_suerte = input("¿Qué color te tocó? (rojo/amarillo/blanco): ").lower()
 
-probucto = int(input("ingresa el valor del probucto"))
-descuento = input(ingresa un color amrillo, rojo, blanca)
-#descuento que optiene segun la suerte
+# Definir descuento según el color
+if color_suerte == "rojo":
+    descuento = 40
+elif color_suerte == "amarillo":
+    descuento = 20
+elif color_suerte == "blanco":
+    descuento = 0
+else:
+    print("Color no válido, se aplicará 0% de descuento")
+    descuento = 0
 
-if descuento == rojo
-print("si escogio el rojo", rojo * 0.40 - producto)
-elif descuento == amarillo
-print("si escogio amarillo", amrillo * 0.20 - producto)
-else
-print("lo ciento suerte para la 
+    
