@@ -16,5 +16,14 @@ elif color_suerte == "blanco":
 else:
     print("Color no válido, se aplicará 0% de descuento")
     descuento = 0
+# Cálculos
+valor_descuento = precio_original * (descuento / 100)
+precio_final = precio_original - valor_descuento
+
+# Resultado
+print(f"\nDescuento aplicado: {descuento}%")
+print(f"Monto del descuento: {valor_descuento:.2f}")
+print(f"Total a pagar: {precio_final:.2f}")
+
 
     
